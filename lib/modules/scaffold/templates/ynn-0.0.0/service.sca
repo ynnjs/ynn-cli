@@ -1,0 +1,14 @@
+/**
+ * @class {{ name }}
+ *
+ * The Ynn.Controller class extends from Ynn.Runtime
+ */
+module.exports = class {{ name }} extends require( 'ynn' ).Service {
+    /**
+     * @constructs
+     */
+    //constructor( ctx, options = {} ) {
+        //super( ctx, options );
+    //}
+}
+

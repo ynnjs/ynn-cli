@@ -1,0 +1,10 @@
+    
+    /**
+     * @action {{ name }}
+     */
+    {{ async }}{{ name }}Action( {{ params }} ) {
+        //const query = this.ctx.query;
+        //const body = this.ctx.request.body;
+
+        //return {};
+    }

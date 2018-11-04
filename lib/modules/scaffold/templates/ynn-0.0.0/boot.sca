@@ -1,0 +1,5 @@
+module.exports = class extends require( 'ynn' ).Boot {
+    //constructor( ctx, options = {} ) {
+        //super( ctx, options );
+    //}
+}

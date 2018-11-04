@@ -1,0 +1,24 @@
+/**
+ * @class {{ name }}
+ *
+ * The Ynn.Controller class extends from Ynn.Runtime
+ */
+module.exports = class {{ name }} extends require( 'ynn' ).Controller {
+    /**
+     * @constructs
+     */
+    //constructor( ctx, options = {} ) {
+        //super( ctx, options );
+    //}
+    {% for action in actions %}
+    {{ "async " if action.async }}{{ action.name }}Action({{ action.params }}) {
+        {% if action.body %}
+        {{ action.body }}
+        {% else %}
+        //const query = this.ctx.query;
+        //const body = this.ctx.request.body;
+        //return {};
+        {% endif %}
+    }
+    {% endfor %}
+}
