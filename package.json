@@ -5,7 +5,7 @@
 		"type": "git",
 		"url": "https://github.com/ynnjs/ynn-cli.git"
 	},
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"keywords": [
 		"ynn",
 		"command",
