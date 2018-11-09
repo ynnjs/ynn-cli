@@ -16,11 +16,11 @@
         "ynn" : "bin/ynn.js"
     },
 	"devDependencies": {
-		"eslint": "^4.19.1",
+		"eslint": "^5.8.0",
 		"jasmine": "^3.1.0",
 		"nodemon": "^1.17.5",
 		"pre-commit": "^1.2.2",
-		"ynn": "0.0.4"
+		"ynn": "0.0.12"
 	},
     "files" : [
         "index.js",
