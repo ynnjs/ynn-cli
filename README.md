@@ -1,5 +1,7 @@
 # Ynn command line tool
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ynnjs/ynn-cli.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 ```sh
