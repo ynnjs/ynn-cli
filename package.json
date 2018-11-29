@@ -5,38 +5,36 @@
 		"type": "git",
 		"url": "https://github.com/ynnjs/ynn-cli.git"
 	},
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"keywords": [
 		"ynn",
 		"command",
 		"cli"
 	],
-    "main" : "index.js",
-    "bin" : {
-        "ynn" : "bin/ynn.js"
-    },
+	"main": "index.js",
+	"bin": {
+		"ynn": "bin/ynn.js"
+	},
 	"devDependencies": {
-		"eslint": "^4.19.1",
+		"eslint": "^5.9.0",
 		"jasmine": "^3.1.0",
 		"nodemon": "^1.17.5",
 		"pre-commit": "^1.2.2",
-		"ynn": "0.0.4"
+		"ynn": "0.0.14"
 	},
-    "files" : [
-        "index.js",
-        "bin",
-        "lib"
-    ],
+	"files": [
+		"index.js",
+		"bin",
+		"lib"
+	],
 	"author": "LvChengbin <lvchengbin59@gmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"cli-style": "0.0.3",
 		"commander": "^2.18.0",
 		"empty-dir": "^1.0.0",
 		"fs-extra": "^7.0.0",
 		"inquirer": "^6.2.0",
 		"nunjucks": "^3.1.3",
-		"ora": "^3.0.0",
 		"semver": "^5.5.1"
 	},
 	"scripts": {
